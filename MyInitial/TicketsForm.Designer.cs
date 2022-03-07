@@ -74,6 +74,23 @@
             this.lblAmount.Size = new System.Drawing.Size(0, 13);
             this.lblAmount.TabIndex = 3;
             // 
+            // lblDiscount
+            // 
+            this.lblAmountDue.AutoSize = true;
+            this.lblAmountDue.Location = new System.Drawing.Point(244, 48);
+            this.lblAmountDue.Name = "lblDiscount";
+            this.lblAmountDue.Size = new System.Drawing.Size(66, 13);
+            this.lblAmountDue.TabIndex = 2;
+            this.lblAmountDue.Text = "Discount";
+            // 
+            // lblAmount
+            // 
+            this.lblAmount.AutoSize = true;
+            this.lblAmount.Location = new System.Drawing.Point(327, 53);
+            this.lblAmount.Name = "lblDiscount";
+            this.lblAmount.Size = new System.Drawing.Size(0, 13);
+            this.lblAmount.TabIndex = 3;
+
             // chkDiscount
             // 
             this.chkDiscount.AutoSize = true;
