@@ -39,6 +39,8 @@ namespace Ticketing
                 { mSection = 2; }
             if (radBox.Checked)
                 { mSection = 3; }
+            if (radStall.Checked)
+                 { mSection = 4; }
 
             mTicketPrice = new TicketPrice(mSection, mQuantity, mDiscount);
 
@@ -46,22 +48,6 @@ namespace Ticketing
             lblAmount.Text = System.Convert.ToString(mTicketPrice.AmountDue);
         }
 
-        private void InitializeComponent()
-        {
-            this.SuspendLayout();
-            // 
-            // TicketsForm
-            // 
-            this.ClientSize = new System.Drawing.Size(284, 261);
-            this.Name = "TicketsForm";
-            this.Load += new System.EventHandler(this.TicketsForm_Load_1);
-            this.ResumeLayout(false);
-
-        }
-
-        private void TicketsForm_Load_1(object sender, EventArgs e)
-        {
-
-        }
+       
     }
 }

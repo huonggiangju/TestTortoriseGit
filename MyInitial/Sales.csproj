@@ -83,7 +83,9 @@
     <Compile Include="TicketsForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="TicketsForm.Designer.cs" />
+    <Compile Include="TicketsForm.Designer.cs">
+      <DependentUpon>TicketsForm.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="AboutBox1.resx">
       <DependentUpon>AboutBox1.cs</DependentUpon>
       <SubType>Designer</SubType>
