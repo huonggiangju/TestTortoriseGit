@@ -5,7 +5,7 @@
         /// <summary>
         /// Required designer variable.
         /// </summary>
-        private System.ComponentModel.IContainer components = null;
+        private System.ComponentModel.IContainer components = null; 
 
         /// <summary>
         /// Clean up any resources being used.
@@ -36,6 +36,7 @@
             this.radBalcony = new System.Windows.Forms.RadioButton();
             this.radGeneral = new System.Windows.Forms.RadioButton();
             this.radBox = new System.Windows.Forms.RadioButton();
+            this.radStall = new System.Windows.Forms.RadioButton();
             this.grpSection = new System.Windows.Forms.GroupBox();
             this.cmdCalculate = new System.Windows.Forms.Button();
             this.grpSection.SuspendLayout();
@@ -74,23 +75,6 @@
             this.lblAmount.Size = new System.Drawing.Size(0, 13);
             this.lblAmount.TabIndex = 3;
             // 
-            // lblDiscount
-            // 
-            this.lblAmountDue.AutoSize = true;
-            this.lblAmountDue.Location = new System.Drawing.Point(244, 48);
-            this.lblAmountDue.Name = "lblDiscount";
-            this.lblAmountDue.Size = new System.Drawing.Size(66, 13);
-            this.lblAmountDue.TabIndex = 2;
-            this.lblAmountDue.Text = "Discount";
-            // 
-            // lblAmount
-            // 
-            this.lblAmount.AutoSize = true;
-            this.lblAmount.Location = new System.Drawing.Point(327, 53);
-            this.lblAmount.Name = "lblDiscount";
-            this.lblAmount.Size = new System.Drawing.Size(0, 13);
-            this.lblAmount.TabIndex = 3;
-
             // chkDiscount
             // 
             this.chkDiscount.AutoSize = true;
@@ -100,6 +84,16 @@
             this.chkDiscount.TabIndex = 5;
             this.chkDiscount.Text = "Senior / Student";
             this.chkDiscount.UseVisualStyleBackColor = true;
+            
+             // childDiscount
+            // 
+            //this.childDiscount.AutoSize = true;
+            //this.childDiscount.Location = new System.Drawing.Point(91, 50);
+            //this.childDiscount.Name = "childDiscount";
+            //this.childDiscount.Size = new System.Drawing.Size(104, 17);
+            //this.childDiscount.TabIndex = 6;
+            //this.childDiscount.Text = "Child";
+            //this.childDiscount.UseVisualStyleBackColor = true;
             // 
             // radBalcony
             // 
@@ -128,20 +122,31 @@
             this.radBox.AutoSize = true;
             this.radBox.Location = new System.Drawing.Point(26, 63);
             this.radBox.Name = "radBox";
-            this.radBox.Size = new System.Drawing.Size(73, 17);
+            this.radBox.Size = new System.Drawing.Size(64, 17);
             this.radBox.TabIndex = 8;
             this.radBox.Text = "Box Seats";
             this.radBox.UseVisualStyleBackColor = true;
             // 
+
+            //radStall
+            // 
+            this.radStall.AutoSize = true;
+            this.radStall.Location = new System.Drawing.Point(26, 87);
+            this.radStall.Name = "radStall";
+            this.radStall.Size = new System.Drawing.Size(65, 17);
+            this.radStall.TabIndex = 9;
+            this.radStall.Text = "Black Stall";
+            this.radStall.UseVisualStyleBackColor = true;
             // grpSection
             // 
             this.grpSection.Controls.Add(this.radBox);
             this.grpSection.Controls.Add(this.radGeneral);
             this.grpSection.Controls.Add(this.radBalcony);
+            this.grpSection.Controls.Add(this.radStall);
             this.grpSection.Location = new System.Drawing.Point(52, 141);
             this.grpSection.Name = "grpSection";
             this.grpSection.Size = new System.Drawing.Size(139, 111);
-            this.grpSection.TabIndex = 9;
+            this.grpSection.TabIndex = 10;
             this.grpSection.TabStop = false;
             this.grpSection.Text = "Section";
             // 
@@ -150,7 +155,7 @@
             this.cmdCalculate.Location = new System.Drawing.Point(294, 268);
             this.cmdCalculate.Name = "cmdCalculate";
             this.cmdCalculate.Size = new System.Drawing.Size(108, 35);
-            this.cmdCalculate.TabIndex = 10;
+            this.cmdCalculate.TabIndex = 11;
             this.cmdCalculate.Text = "Calculate";
             this.cmdCalculate.UseVisualStyleBackColor = true;
             this.cmdCalculate.Click += new System.EventHandler(this.cmdCalculate_Click);
@@ -184,9 +189,11 @@
         private System.Windows.Forms.Label lblAmountDue;
         private System.Windows.Forms.Label lblAmount;
         private System.Windows.Forms.CheckBox chkDiscount;
+        private System.Windows.Forms.CheckBox childDiscount;
         private System.Windows.Forms.RadioButton radBalcony;
         private System.Windows.Forms.RadioButton radGeneral;
         private System.Windows.Forms.RadioButton radBox;
+        private System.Windows.Forms.RadioButton radStall;
         private System.Windows.Forms.GroupBox grpSection;
         private System.Windows.Forms.Button cmdCalculate;
     }
