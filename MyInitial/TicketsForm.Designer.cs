@@ -84,26 +84,26 @@
             this.chkDiscount.TabIndex = 5;
             this.chkDiscount.Text = "Senior / Student";
             this.chkDiscount.UseVisualStyleBackColor = true;
-            
-             // childDiscount
+
+            // childDiscount
             // 
-            //this.childDiscount.AutoSize = true;
-            //this.childDiscount.Location = new System.Drawing.Point(91, 50);
-            //this.childDiscount.Name = "childDiscount";
-            //this.childDiscount.Size = new System.Drawing.Size(104, 17);
-            //this.childDiscount.TabIndex = 6;
-            //this.childDiscount.Text = "Child";
-            //this.childDiscount.UseVisualStyleBackColor = true;
+            this.childDiscount.AutoSize = true;
+            this.childDiscount.Location = new System.Drawing.Point(91, 50);
+            this.childDiscount.Name = "childDiscount";
+            this.childDiscount.Size = new System.Drawing.Size(96, 37);
+            this.childDiscount.TabIndex = 6;
+            this.childDiscount.Text = "Child";
+            this.childDiscount.UseVisualStyleBackColor = true;
             // 
             // radBalcony
             // 
-            this.radBalcony.AutoSize = true;
-            this.radBalcony.Location = new System.Drawing.Point(26, 17);
-            this.radBalcony.Name = "radBalcony";
-            this.radBalcony.Size = new System.Drawing.Size(63, 17);
-            this.radBalcony.TabIndex = 6;
-            this.radBalcony.Text = "Balcony";
-            this.radBalcony.UseVisualStyleBackColor = true;
+            this.radbalcony.autosize = true;
+            this.radbalcony.location = new system.drawing.point(26, 17);
+            this.radbalcony.name = "radbalcony";
+            this.radbalcony.size = new system.drawing.size(63, 17);
+            this.radbalcony.tabindex = 6;
+            this.radbalcony.text = "balcony";
+            this.radbalcony.usevisualstylebackcolor = true;
             // 
             // radGeneral
             // 
@@ -168,6 +168,7 @@
             this.Controls.Add(this.cmdCalculate);
             this.Controls.Add(this.grpSection);
             this.Controls.Add(this.chkDiscount);
+            this.Controls.Add(this.childDiscount);
             this.Controls.Add(this.lblAmount);
             this.Controls.Add(this.lblAmountDue);
             this.Controls.Add(this.txtQuantity);
